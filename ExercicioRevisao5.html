@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 5 Revisão HTML</title>
+</head>
+<body>
+    <h1>Exemplo 5 HTML - Uso das tags de Imagem e Video</h1>
+    <p>
+        Esse exemplo mostra diferentes formas de usar as tags <strong>&lt;;img&gt;</strong> e video <strong>&lt;video&gt;</strong>, além disso também vamos usar a tag figcaption e Figure que tem como objetivo agrupar e colocar uma legenda na imagem e ou vídeo.
+    </p>
+    <h2>Exemplos práticos</h2>
+    <h3>Exemplo usando figure, figcaption e img</h3>
+    <figure>
+        <img src="fotos/fotolobo.png" alt="foto de um lobo" whidth = 300 height="300">
+        <figcaption>Imagem de um lobo branco</figcaption>
+    </figure>
+    <h3>Exemplo de imcorporação de vídeo</h3>
+    <video controls width="500">
+            <source src="videos/videolobo.mp4">
+    </video>
+    <figure>
+        <video controls width ="400">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <figcaption>Video 1: Um vídeo de Exemplo (Big Buck Bunny)</figcaption>
+    </figure>
+
+    <h3>Exemplo do uso do Iframe - Incorporação de Vídeos do YouTube</h3>
+    <p>Exemplo de incorporação de dois vídeos do YouTube colocados lado a lado</p>
+    <div class="iframe-container">
+        <figure>
+           <iframe width="1272" height="545" src="https://www.youtube.com/embed/LRfk6DEfydw" title="Pelos prados e campinas | Cover" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>Vídeo 2: Um tutorial rápido sobre HTML.</figcaption>
+        </figure>
+        <figure>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/daKU7soXDAU" title="MATHEUS RIZZO E CURITIBA CORAL - ALÉM DO RIO AZUL (live cover)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <figcaption>Vídeo 3: Além do Rio Azul - Matheus Rizzo e Curitiba Coral.</figcaption>
+        </figure>
+
+</body>
+</html>
