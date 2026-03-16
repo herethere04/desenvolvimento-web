@@ -9,7 +9,6 @@ main{
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
     border-top: double darkorange 8px;
-    border: solid darkorange 4px;
     width: 80%;
     margin-top: 50px;
 }
