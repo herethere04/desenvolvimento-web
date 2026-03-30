@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 15 - HTML CSS</title>
+    <style>
+        .navigation{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+            list-style: none;
+            margin: 0;
+            background-color: black;
+        }
+        .navigation a{
+            text-decoration: none;
+            display: block;
+            padding: 1rem;
+            color: gold;
+        }
+        .navigation a:hover{
+            background-color: gold;
+            color: black;
+        }
+        @media all and (max-width : 800px){
+            .navigation{
+                justify-content: space-around;
+            }
+        }
+        @media all and(max-width : 600px){
+                .navigation{
+                    flex-flow: column;
+                    padding: 0;
+                }
+                .navigation a{
+                    padding: 0.10px;
+                    text-align: center;
+                    border-top: solid gold 1px;
+                    border-bottom: solid rgb (134,97,3) 1px;
+                }
+            }
+    </style>
+</head>
+<body>
+    <ul class="navigation">
+        <li><a href="https://">Inicio</a></li>
+        <li><a href="https://">Produto</a></li>
+        <li><a href="https://">Contatos</a></li>
+        <li><a href="https://">Sobre</a></li>
+    </ul>
+    <h1>Exemplo 15 HTML CSS - Flexbox responsivos</h1>
+</body>
+</html>
